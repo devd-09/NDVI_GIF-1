@@ -2,7 +2,7 @@ This update transforms the original notebook into a better monitoring programme 
 
 Monthly datasets: Datasets are aggregated monthly, to match in time, NDVI (average value), Rainfall (cumulative value) and LST (average value).
 
-Baseline & anomalies: We create a climatology of 2001-2010 and analyse monthly anomalies that point out when the landscapes were greener, drier or hotter than usual.
+Baseline & anomalies: created a climatology of 2001-2010 and analyse monthly anomalies that point out when the landscapes were greener, drier or hotter than usual.
 
 Visualization: Used clearer color palettes to represent both absolute values and anomalies, so that patterns can be more readily identified.
 
@@ -13,3 +13,10 @@ Dates: Every GIF frame now contains a neat label of months and years (the labels
 Regional CSVs: Included Drive exports of monthly NDVI, Rain and LST averages to be plotted/analyzed further.
 
 Lag analysis: Made available the possibility to analyze an impact of rainfall on NDVI with a configurable lag (1-month delay).
+
+
+######
+anomaly explaination - as baseline 2001-2010 have been chosen. mean or average of each month from 2001-2011 has been considered as the standard mark for anomaly detection.
+for example assume from 2001-2010 july had an ndvi of .7
+now this 0.7 has been considered as the stardard for anomaly detection. 
++- 0.3 compared to 0.7 value of each year (here 2001-2025) in the month of july will considered as anomaly. 
