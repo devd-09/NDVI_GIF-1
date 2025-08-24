@@ -1,0 +1,15 @@
+This update transforms the original notebook into a better monitoring programme workflow based on NDVI timelapse.
+
+Monthly datasets: Datasets are aggregated monthly, to match in time, NDVI (average value), Rainfall (cumulative value) and LST (average value).
+
+Baseline & anomalies: We create a climatology of 2001-2010 and analyse monthly anomalies that point out when the landscapes were greener, drier or hotter than usual.
+
+Visualization: Used clearer color palettes to represent both absolute values and anomalies, so that patterns can be more readily identified.
+
+GIF exports: Changed to dimension based export to address the stability of this export method and tidied up the AOI handling to remove pixel limit issues in the Earth Engine.
+
+Dates: Every GIF frame now contains a neat label of months and years (the labels use white text with black outline, so they are clearly visible when watching the animation).
+
+Regional CSVs: Included Drive exports of monthly NDVI, Rain and LST averages to be plotted/analyzed further.
+
+Lag analysis: Made available the possibility to analyze an impact of rainfall on NDVI with a configurable lag (1-month delay).
